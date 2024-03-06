@@ -58,5 +58,24 @@ namespace EvalBack
             }
         }
 
+        [Function("GetAllEvents")]
+        public async Task<IActionResult> GetAllEvents(
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "GetAllEvents")] HttpRequest req)
+        {
+            _logger.LogInformation("Received a request to get all events.");
+
+            try
+            {
+                var events = await _eventService.GetAllEventsAsync();
+                return new OkObjectResult(events);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error retrieving events: {ex.Message}");
+                return new StatusCodeResult(StatusCodes.Status500InternalServerError);
+            }
+        }
     }
 }
+
+    

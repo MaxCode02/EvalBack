@@ -7,6 +7,6 @@ namespace EvalBack.Services.Contracts
         Task<Event> CreateEventAsync(Event eventToCreate);
         Task<IEnumerable<Event>> GetAllEventsAsync();
         Task<Event> UpdateEventAsync( Event eventToUpdate);
-        Task<bool> DeleteEventAsync(Guid Id);
+        Task<bool> DeleteEventAsync(int Id);
     }
 }

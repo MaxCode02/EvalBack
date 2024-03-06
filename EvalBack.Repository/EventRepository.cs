@@ -28,7 +28,7 @@ namespace EvalBack.Repository
             return await _context.Events.ToListAsync();
         }
 
-        public async Task<Event> GetByIdAsync(Guid id)
+        public async Task<Event> GetByIdAsync(int id)
         {
             return await _context.Events.FindAsync(id);
         }
@@ -40,7 +40,7 @@ namespace EvalBack.Repository
             return eventToUpdate;
         }
 
-        public async Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(int id)
         {
             var eventToRemove = await _context.Events.FindAsync(id);
             if (eventToRemove != null)

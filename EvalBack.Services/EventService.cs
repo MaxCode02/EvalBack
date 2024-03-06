@@ -32,7 +32,7 @@ namespace EvalBack.Services
             return await _eventRepository.UpdateAsync( eventToUpdate);
         }
         
-        public async Task<bool> DeleteEventAsync(Guid Id)
+        public async Task<bool> DeleteEventAsync(int Id)
         {
             
             return await _eventRepository.DeleteAsync(Id);

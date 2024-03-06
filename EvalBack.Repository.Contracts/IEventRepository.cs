@@ -6,9 +6,9 @@ namespace EvalBack.Repository.Contracts
     {
         Task<Event> AddAsync(Event eventToAdd);
         Task<IEnumerable<Event>> GetAllAsync();
-        Task<Event> GetByIdAsync(Guid id);
+        Task<Event> GetByIdAsync(int id);
         Task<Event> UpdateAsync(Event eventToUpdate);
-        Task<bool> DeleteAsync(Guid id);
+        Task<bool> DeleteAsync(int id);
         
     }
 

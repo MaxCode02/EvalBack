@@ -5,7 +5,7 @@ namespace EvalBack.Entity
     public class Event
     {
         [Key]
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public int Id { get; set; }
 
         [Required]
         public string Title { get; set; }
