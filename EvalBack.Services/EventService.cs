@@ -26,10 +26,10 @@ namespace EvalBack.Services
             return await _eventRepository.GetAllAsync();
         }
 
-        public async Task<Event> UpdateEventAsync( Event eventToUpdate)
+        public async Task<Event> UpdateEventAsync(int id, Event eventToUpdate)
         {
           
-            return await _eventRepository.UpdateAsync( eventToUpdate);
+            return await _eventRepository.UpdateAsync( id,eventToUpdate);
         }
         
         public async Task<bool> DeleteEventAsync(int Id)

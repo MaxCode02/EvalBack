@@ -33,7 +33,7 @@ namespace EvalBack.Repository
             return await _context.Events.FindAsync(id);
         }
 
-        public async Task<Event> UpdateAsync(Event eventToUpdate)
+        public async Task<Event> UpdateAsync(int id ,Event eventToUpdate)
         {
             _context.Events.Update(eventToUpdate);
             await _context.SaveChangesAsync();

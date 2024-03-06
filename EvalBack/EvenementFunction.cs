@@ -75,6 +75,41 @@ namespace EvalBack
                 return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
+
+        [Function("UpdateEvent")]
+        public async Task<IActionResult> UpdateEvent(
+            [HttpTrigger(AuthorizationLevel.Function, "put", Route = "Events/{id}")] HttpRequest req,
+            int id)
+        {
+            _logger.LogInformation($"Received a request to update event with ID: {id}");
+
+            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            var updatedEventInfo = JsonConvert.DeserializeObject<Event>(requestBody);
+            if (updatedEventInfo == null)
+            {
+                return new BadRequestObjectResult("Please pass valid event data in the request body.");
+            }
+
+            try
+            {
+                var updatedEvent = await _eventService.UpdateEventAsync(id, updatedEventInfo);
+                if (updatedEvent == null)
+                {
+                    return new NotFoundResult();
+                }
+                return new OkObjectResult(updatedEvent);
+            }
+            catch (JsonException jsonEx)
+            {
+                _logger.LogError($"JSON Error: {jsonEx.Message}");
+                return new BadRequestObjectResult("The provided event data is not in a valid format.");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error updating event: {ex.Message}");
+                return new StatusCodeResult(StatusCodes.Status500InternalServerError);
+            }
+        }
     }
 }
 
