@@ -110,6 +110,29 @@ namespace EvalBack
                 return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
+
+        [Function("DeleteEvent")]
+        public async Task<IActionResult> DeleteEvent(
+         [HttpTrigger(AuthorizationLevel.Function, "delete", Route = "DeleteEvents/{id}")] HttpRequest req,
+         int id)
+        {
+            _logger.LogInformation($"Received a request to delete event with ID: {id}");
+
+            try
+            {
+                bool result = await _eventService.DeleteEventAsync(id);
+                if (!result)
+                {
+                    return new NotFoundResult();
+                }
+                return new OkResult();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error deleting event: {ex.Message}");
+                return new StatusCodeResult(StatusCodes.Status500InternalServerError);
+            }
+        }
     }
 }
 
