@@ -1,6 +1,6 @@
 ﻿namespace EvalBack.Repository.Contracts
 {
-    public class Class1
+    public class IEventRepository
     {
 
     }

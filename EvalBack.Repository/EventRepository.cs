@@ -1,6 +1,6 @@
 ﻿namespace EvalBack.Repository
 {
-    public class Class1
+    public class EventRepository
     {
 
     }

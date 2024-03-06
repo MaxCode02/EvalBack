@@ -14,6 +14,23 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.16.4" />
     <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.21.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EvalBack.DAL\EvalBack.DAL.csproj" />
+    <ProjectReference Include="..\EvalBack.Repository.Contracts\EvalBack.Repository.Contracts.csproj" />
+    <ProjectReference Include="..\EvalBack.Repository\EvalBack.Repository.csproj" />
+    <ProjectReference Include="..\EvalBack.Services.Contracts\EvalBack.Services.Contracts.csproj" />
+    <ProjectReference Include="..\EvalBack.Services\EvalBack.Services.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
