@@ -1132,6 +1132,50 @@
             "rid": "win"
           }
         }
+      },
+      "EvalBack.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EvalBack.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EvalBack.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvalBack.DAL.dll": {}
+        }
+      },
+      "EvalBack.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EvalBack.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvalBack.Entity.dll": {}
+        }
+      },
+      "EvalBack.Repository.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EvalBack.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EvalBack.Repository.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvalBack.Repository.Contracts.dll": {}
+        }
       }
     }
   },
@@ -3452,10 +3496,27 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EvalBack.DAL/1.0.0": {
+      "type": "project",
+      "path": "../EvalBack.DAL/EvalBack.DAL.csproj",
+      "msbuildProject": "../EvalBack.DAL/EvalBack.DAL.csproj"
+    },
+    "EvalBack.Entity/1.0.0": {
+      "type": "project",
+      "path": "../EvalBack.Entity/EvalBack.Entity.csproj",
+      "msbuildProject": "../EvalBack.Entity/EvalBack.Entity.csproj"
+    },
+    "EvalBack.Repository.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../EvalBack.Repository.Contracts/EvalBack.Repository.Contracts.csproj",
+      "msbuildProject": "../EvalBack.Repository.Contracts/EvalBack.Repository.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EvalBack.DAL >= 1.0.0",
+      "EvalBack.Repository.Contracts >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3494,7 +3555,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.DAL\\EvalBack.DAL.csproj": {
+              "projectPath": "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.DAL\\EvalBack.DAL.csproj"
+            },
+            "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.Repository.Contracts\\EvalBack.Repository.Contracts.csproj": {
+              "projectPath": "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.Repository.Contracts\\EvalBack.Repository.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

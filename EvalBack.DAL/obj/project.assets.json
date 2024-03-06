@@ -1132,6 +1132,20 @@
             "rid": "win"
           }
         }
+      },
+      "EvalBack.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EvalBack.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvalBack.Entity.dll": {}
+        }
       }
     }
   },
@@ -3452,10 +3466,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EvalBack.Entity/1.0.0": {
+      "type": "project",
+      "path": "../EvalBack.Entity/EvalBack.Entity.csproj",
+      "msbuildProject": "../EvalBack.Entity/EvalBack.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EvalBack.Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3494,7 +3514,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.Entity\\EvalBack.Entity.csproj": {
+              "projectPath": "C:\\Users\\maxal\\source\\repos\\EvalBack\\EvalBack.Entity\\EvalBack.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

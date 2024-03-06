@@ -16,6 +16,7 @@ var host = new HostBuilder()
         var configuration = context.Configuration;
         services.AddDbContext<EvalBackDbContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("MyDbConnection")));
+        
         services.AddScoped<IEventRepository, EventRepository>();
         services.AddScoped<IEventService, EventService>();
 

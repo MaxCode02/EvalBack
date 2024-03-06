@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EvalBack.DAL\EvalBack.DAL.csproj" />
+    <ProjectReference Include="..\EvalBack.Repository.Contracts\EvalBack.Repository.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

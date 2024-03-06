@@ -1,0 +1,17 @@
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Services.Contracts.deps.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Services.Contracts.runtimeconfig.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Services.Contracts.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Services.Contracts.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Entity.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\bin\Debug\net7.0\EvalBack.Entity.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.csproj.AssemblyReference.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.AssemblyInfoInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.AssemblyInfo.cs
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.csproj.CopyComplete
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\refint\EvalBack.Services.Contracts.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\EvalBack.Services.Contracts.genruntimeconfig.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Services.Contracts\obj\Debug\net7.0\ref\EvalBack.Services.Contracts.dll

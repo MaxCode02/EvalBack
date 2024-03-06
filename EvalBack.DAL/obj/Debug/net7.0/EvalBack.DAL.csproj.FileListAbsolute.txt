@@ -1,0 +1,17 @@
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.csproj.AssemblyReference.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.AssemblyInfoInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.AssemblyInfo.cs
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.csproj.CoreCompileInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.DAL.deps.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.DAL.runtimeconfig.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.DAL.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.DAL.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.Entity.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\bin\Debug\net7.0\EvalBack.Entity.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.csproj.CopyComplete
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\refint\EvalBack.DAL.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\EvalBack.DAL.genruntimeconfig.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.DAL\obj\Debug\net7.0\ref\EvalBack.DAL.dll

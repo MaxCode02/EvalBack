@@ -1,0 +1,14 @@
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\bin\Debug\net7.0\EvalBack.Entity.deps.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\bin\Debug\net7.0\EvalBack.Entity.runtimeconfig.json
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\bin\Debug\net7.0\EvalBack.Entity.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\bin\Debug\net7.0\EvalBack.Entity.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.csproj.AssemblyReference.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.AssemblyInfoInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.AssemblyInfo.cs
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.csproj.CoreCompileInputs.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\refint\EvalBack.Entity.dll
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.pdb
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\EvalBack.Entity.genruntimeconfig.cache
+C:\Users\maxal\source\repos\EvalBack\EvalBack.Entity\obj\Debug\net7.0\ref\EvalBack.Entity.dll
